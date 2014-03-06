@@ -61,3 +61,6 @@ ENABLE_JSC_JIT          := true
 JS_ENGINE               := v8
 HTTP                    := chrome
 TARGET_FORCE_CPU_UPLOAD := true
+
+# ClamAV "ramdisk-recovery.img: Andr.Exploit.Ratc FOUND"
+TW_EXCLUDE_SUPERSU      := true
